@@ -3,6 +3,7 @@ import labelguide from './images/labelguiderlhf.png';
 import toloka from './images/toloka.png';
 import modedistillabele from './images/modeldistillabel.png';
 import kumemedium from './images/kubemedium.png';
+import localization from './images/localization.png';
 
 export const PROFILE = {
   name: "Joseph Osoo Adek",
@@ -43,6 +44,13 @@ export const SKILLS: SkillCategory[] = [
 ];
 
 export const PROJECTS: Project[] = [
+  {
+    id: 5,
+    title: "A Step-By-Step Guide On How to Set Up Angular Internationalization (i18n) and Localization (l10n) Without Breaking Your App",
+    link: "https://medium.com/@josephosoo/a-step-by-step-guide-on-how-to-set-up-angular-internationalization-i18n-and-localization-l10n-2b5849ad0ed0",
+    image: localization,
+    description: "I wrote a practical guide to preparing Angular applications for global audiences with internationalization and localization. The article walks developers through translation setup, managing XLIFF files, and building localized versions, while exploring dynamic content and translation automation with Lingo.dev."
+  },
   {
     id: 1,
     title: "How to Implement Reinforcement Learning from Human Feedback (RLHF)",

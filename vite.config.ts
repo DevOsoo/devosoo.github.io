@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
         host: '0.0.0.0',
       },
       plugins: [react()],
-      base: '/josephosoo',
+      base: '/',
       // IMPORTANT: Avoid exposing secrets to the client-side.
       // The `define` block below was removed to prevent the `GEMINI_API_KEY` 
       // from being embedded in the compiled JavaScript bundle.
