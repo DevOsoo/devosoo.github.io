@@ -3,6 +3,7 @@ export interface Project {
   title: string;
   link: string;
   image: string;
+  imagePosition?: 'center' | 'top';
   description: string;
 }
 

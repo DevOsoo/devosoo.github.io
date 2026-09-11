@@ -11,6 +11,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
           src={project.image}
           alt={project.title}
           className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700 ease-out"
+          style={{ objectPosition: project.imagePosition, transformOrigin: project.imagePosition }}
           onError={(e) => { e.currentTarget.src = `https://picsum.photos/500/300?random=${project.id}`; }}
         />
       </div>
